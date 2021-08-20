@@ -19,6 +19,7 @@ def test_form_entry():
     driver.find_element_by_name("gaji").send_keys("100000")
     driver.find_element_by_name("atasan").send_keys("Mr misterio")
     driver.find_element_by_name("submit").click()
+    #
 
 def test_cleanup():
     driver.close()
